@@ -1,0 +1,47 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_grc_risk_control_ro,SA GRC Controls read-only,model_grc_control,grc_risk_ro_user,1,0,0,0
+access_grc_risk_control_type_ro,SA GRC Control Types read-only,model_grc_control_type,grc_risk_ro_user,1,0,0,0
+access_grc_control_tag_ro,SA GRC Control Tags read-only,model_grc_control_tag,grc_risk_user,1,0,0,0
+access_grc_risk_risk_ro,SA GRC Risks read-only,model_grc_risk,grc_risk_ro_user,1,0,0,0
+access_grc_risk_risk_type_ro,SA GRC Risk Types read-only,model_grc_risk_type,grc_risk_ro_user,1,0,0,0
+access_grc_risk_risk_set_ro,grc_risk_set_group read-only,model_grc_risk_set,grc_risk_ro_user,1,0,0,0
+access_grc_risk_risk_likelihood_ro,SA GRC Risk Likelihoods read-only,model_grc_risk_likelihood,grc_risk_ro_user,1,0,0,0
+access_grc_risk_risk_severity_ro,SA GRC Risks Severity read-only,model_grc_risk_severity,grc_risk_ro_user,1,0,0,0
+access_grc_risk_risk_threat_ro,SA GRC Risks Threats read-only,model_grc_risk_threat,grc_risk_ro_user,1,0,0,0
+access_grc_risk_risk_vulnerability_ro,SA GRC Risks Vulnerabilities read-only,model_grc_risk_vulnerability,grc_risk_ro_user,1,0,0,0
+access_grc_risk_policy_ro,SA GRC Risks Policies read-only,model_grc_policy,grc_risk_ro_user,1,0,0,0
+access_grc_policy_tag_ro,SA GRC Policy Tags read-only,model_grc_policy_tag,grc_risk_user,1,0,0,0
+access_grc_risk_tag_ro,SA GRC Risks Tags read-only,model_grc_risk_tag,grc_risk_ro_user,1,0,0,0
+access_grc_risk_assessment_ro,SA GRC Risks Assessments read-only,model_grc_risk_assessment,grc_risk_ro_user,1,0,0,0
+access_grc_asset_ro,SA GRC Assets read-only,model_grc_asset,grc_risk_ro_user,1,0,0,0
+access_grc_asset_type_ro,SA GRC Asset Types read-only,model_grc_asset_type,grc_risk_ro_user,1,0,0,0
+access_grc_asset_tag_ro,SA GRC Asset Tags read-only,model_grc_asset_tag,grc_risk_user,1,0,0,0
+
+
+access_grc_risk_control_usr,SA GRC Controls user access,model_grc_control,grc_risk_user,1,1,1,1
+access_grc_risk_control_type_usr,SA GRC Control Types user access,model_grc_control_type,grc_risk_user,1,0,0,0
+access_grc_control_tag_usr,SA GRC Control Tags user access,model_grc_control_tag,grc_risk_user,1,1,1,1
+access_grc_risk_risk_usr,SA GRC Risks user access,model_grc_risk,grc_risk_user,1,1,1,1
+access_grc_risk_risk_type_usr,SA GRC Risk Types user access,model_grc_risk_type,grc_risk_user,1,0,0,0
+access_grc_risk_risk_set_usr,grc_risk_set_group user access,model_grc_risk_set,grc_risk_user,1,0,0,0
+access_grc_risk_risk_likelihood_usr,SA GRC Risk Likelihoods user access,model_grc_risk_likelihood,grc_risk_user,1,0,0,0
+access_grc_risk_risk_severity_usr,SA GRC Risks Severity user access,model_grc_risk_severity,grc_risk_user,1,0,0,0
+access_grc_risk_risk_threat_usr,SA GRC Risks Threats user access,model_grc_risk_threat,grc_risk_user,1,0,0,0
+access_grc_risk_risk_vulnerability_usr,SA GRC Risks Vulnerabilities user access,model_grc_risk_vulnerability,grc_risk_user,1,0,0,0
+access_grc_risk_policy_usr,SA GRC Risks Policies user access,model_grc_policy,grc_risk_user,1,1,1,1
+access_grc_policy_tag_usr,SA GRC Policy Tags user access,model_grc_policy_tag,grc_risk_user,1,1,1,1
+access_grc_risk_tag_usr,SA GRC Risks Tags user access,model_grc_risk_tag,grc_risk_user,1,1,1,1
+access_grc_risk_assessment_usr,SA GRC Risks Assessments user access,model_grc_risk_assessment,grc_risk_user,1,1,1,1
+access_grc_asset_usr,SA GRC Assets user access,model_grc_asset,grc_risk_user,1,1,1,1
+access_grc_asset_type_usr,SA GRC Asset Types user access,model_grc_asset_type,grc_risk_user,1,0,0,0
+access_grc_asset_tag_usr,SA GRC Asset Tags user access,model_grc_asset_tag,grc_risk_user,1,1,1,1
+
+access_grc_risk_control_type,SA GRC Control Types,model_grc_control_type,grc_risk_manager,1,1,1,1
+access_grc_risk_risk_type,SA GRC Risk Types,model_grc_risk_type,grc_risk_manager,1,1,1,1
+access_grc_risk_risk_set,grc_risk_set_group,model_grc_risk_set,grc_risk_manager,1,1,1,1
+access_grc_risk_risk_likelihood,SA GRC Risk Likelihoods,model_grc_risk_likelihood,grc_risk_manager,1,1,1,1
+access_grc_risk_risk_severity,SA GRC Risks Severity,model_grc_risk_severity,grc_risk_manager,1,1,1,1
+access_grc_risk_risk_threat,SA GRC Risks Threats,model_grc_risk_threat,grc_risk_manager,1,1,1,1
+access_grc_risk_risk_vulnerability,SA GRC Risks Vulnerabilities,model_grc_risk_vulnerability,grc_risk_manager,1,1,1,1
+access_grc_asset_type,SA GRC Asset Types,model_grc_asset_type,grc_risk_manager,1,1,1,1
+
